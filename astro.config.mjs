@@ -5,9 +5,8 @@ const base = process.env.BASE;
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://isonnymichael.github.io',
+    site: 'https://kenny-dkvv.github.io',
     base: base,
-    site: `https://www.christophermarkus.com`,
     output: 'static',
     outDir: './docs',
     build: {
