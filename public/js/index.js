@@ -92,12 +92,12 @@ $("#gform").submit(function(e){
 	  });
 
     var templateParams = {
-      from_name: $('#form-name').val(),
-      from_email: $('#form-email').val(),
+      name: $('#form-name').val(),
+      email: $('#form-email').val(),
       message: $('#form-message').val()
   };
 
-    emailjs.send('service_arzpgbq', 'template_p205pcp', templateParams)
+    emailjs.send('service_cd0y02o', 'template_lql8h3u', templateParams, 'BmrOr-Xyw_YZYm9Sv')
     .then(function(response) {
 
       $('#form-email').val('');
