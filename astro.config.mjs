@@ -7,4 +7,10 @@ const base = process.env.BASE;
 export default defineConfig({
     site: 'https://isonnymichael.github.io',
     base: base,
+    site: `https://www.christophermarkus.com`,
+    output: 'static',
+    outDir: './docs',
+    build: {
+        assets: 'astro'
+    }
 });
